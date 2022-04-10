@@ -9,7 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 
 const App = () => {
-  const KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
+  const KEY = "AIzaSyAblwXT9R9lvzWKkh4pPUaxH1n4o3tiFYU";
   const [videos, setVideos] = useState(null); //requestonyoutube() 결과
   const [selectedVideo, setSelectedVideo] = useState(null); //영상 눌렀을 때 저장
   const [searchVideos, setSearchVideos] = useState(null); //검색 결과
