@@ -34,22 +34,26 @@
   justify-content: space-between;
 }
 
+.Input_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  width:100%;
+}
+
 .HeaderWrap input{
   font-size:16px;
-  width:70%;
   padding:10px;
   border: 0;
   outline: none;
-  float: left;
 }
 
 .HeaderWrap button{
-  width:27%;
   height:100%;
   border:0;
   background:#1b5ac2;
   outline: none;
-  float: right;
   color:#ffffff;
   padding:0;
 }
@@ -78,7 +82,6 @@
 
 
 .VideoItemsWrap{
-  background-color: antiquewhite;
   width:100%;
   max-width: 1600px;
   margin:0;
@@ -141,6 +144,14 @@
 
   .Container{
     grid-template-columns: 1fr;
+  }
+
+  .Input_button{
+    position: relative;
+    right:23%;
+  }
+
+  .Input_button input{
   }
 
   .Home{

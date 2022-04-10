@@ -44,7 +44,7 @@ const Header = ({
             Home
           </div>
         </div>
-        <div style={{ width: "50%" }}>
+        <div style={{ width: "50%" }} className="Input_button">
           <input type="text" ref={SearchInput} onKeyPress={onKeyPress} />
           <button onClick={handleSearch}>검색</button>
         </div>
