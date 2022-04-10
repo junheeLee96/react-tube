@@ -1,11 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import axios from "axios";
-import Video from "./components/Video";
 import "./App.css";
-import VideoDetail from "./components/VideoDetail";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
-import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 
 const App = () => {
