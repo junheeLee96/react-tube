@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# YouTube Clone App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Youtube API data V3로 만든 유튜브 웹입니다.
 
-## Available Scripts
+## 사용 예제
 
-In the project directory, you can run:
+| 예제                                                                                                                      | 예제                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://user-images.githubusercontent.com/89452058/162620603-0617933f-8243-4633-a720-c6305d03b376.png" alt=""/> | <img src="https://user-images.githubusercontent.com/89452058/162620649-50878d87-8fe8-4dbb-81d8-40b25143fbac.png" alt=""/> |
+| <img src="https://user-images.githubusercontent.com/89452058/162620675-0d38bf3f-90d1-4b7f-b772-01c9a4e05f71.png" alt=""/> | <img src="https://user-images.githubusercontent.com/89452058/162620692-e6dac07a-22a9-4518-ae38-5e50f912cca4.png" alt=""/> |
 
-### `yarn start`
+## 목표
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+유튜브 앱은 부족하다고 느꼈던 CSS의 grid를 보충하기 위해 시작했다.
+때문에 react-router-dom을 사용하지 않고 조건식으로 화면에 내용을 변경했다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 아쉬운 점
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+home의 sidebar에는 최근 시청한 목록이 저장된다.
+하지만 메모이제이션이나 로컬스토리지에 저장하지 않은 점이 아쉽다.
+또한 시청 목록이 많아졌을 때, 무한 스크롤(infinite scroll)을 구현하려고 했지만 시도에 그치고 말았다.
